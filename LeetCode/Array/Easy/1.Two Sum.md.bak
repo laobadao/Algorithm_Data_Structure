@@ -38,9 +38,7 @@ class Solution(object):
         return result
 ```
 
-运行通过，但是运行速度特别慢！Beats才20%+。list的index操作时间复杂度为O(1)，
-list的append操作时间复杂度也为O(1)。
-list的not in时间复杂度为O(n)，在算上循环，总共时间复杂度为O(n^2)？所以才这么慢吧....
+运行通过，但是运行速度特别慢！Beats才20%+。list的index操作时间复杂度为O(1)，list的append操作时间复杂度也为O(1)。list的not in时间复杂度为O(n)，在算上循环，总共时间复杂度为O(n^2)？所以才这么慢吧....
 
 继续想一些更高级的解决办法。
 
